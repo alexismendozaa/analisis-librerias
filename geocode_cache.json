@@ -1,0 +1,506 @@
+{
+  "union milagreãa|la joya de los sachas|orellana": null,
+  "loreto|loreto|orellana": {
+    "lat": -0.6892537,
+    "lon": -77.3103577
+  },
+  "puerto francisco de orellana (el coca)|orellana|orellana": {
+    "lat": -0.4504352,
+    "lon": -76.9992687
+  },
+  "la joya de los sachas|la joya de los sachas|orellana": null,
+  "san vicente de huaticocha|loreto|orellana": {
+    "lat": -0.7525127,
+    "lon": -77.4743002
+  },
+  "la belleza|orellana|orellana": {
+    "lat": -0.65688,
+    "lon": -77.0473069
+  },
+  "san carlos|la joya de los sachas|orellana": null,
+  "nueva loja|lago agrio|orellana": {
+    "lat": 0.0882047,
+    "lon": -76.8852475
+  },
+  "archidona|archidona|orellana": null,
+  "santo domingo de los colorados|santo domingo|orellana": null,
+  "el dorado|orellana|orellana": {
+    "lat": -0.5013983,
+    "lon": -76.9551162
+  },
+  "san sebastiãn del coca|la joya de los sachas|orellana": null,
+  "tres de noviembre|la joya de los sachas|orellana": null,
+  "conocoto|quito|orellana": null,
+  "dayuma|orellana|orellana": {
+    "lat": -0.7016944,
+    "lon": -76.7832155
+  },
+  "taracoa (nueva esperanza: yuca)|orellana|orellana": null,
+  "gabriel ignacio veintimilla|guaranda|orellana": null,
+  "san francisco|muisne|orellana": null,
+  "tumbaco|quito|orellana": {
+    "lat": -0.2134567,
+    "lon": -78.4033346
+  },
+  "nuevo paraãso (cab. en uniãn chimborazo)|orellana|orellana": null,
+  "puerto quito|puerto quito|orellana": null,
+  "ãvila (cab. en huiruno)|loreto|orellana": null,
+  "puerto murialdo|loreto|orellana": {
+    "lat": -0.6514631,
+    "lon": -77.1759876
+  },
+  "lago san pedro|la joya de los sachas|orellana": null,
+  "tarqui|guayaquil|orellana": {
+    "lat": -2.1850184,
+    "lon": -79.8880984
+  },
+  "san josã de guayusa|orellana|orellana": null,
+  "san juan|quito|orellana": null,
+  "chiguilpe|santo domingo|orellana": null,
+  "nuevo rocafuerte|aguarico|orellana": {
+    "lat": -0.9191774,
+    "lon": -75.4023208
+  },
+  "pishilata|ambato|orellana": null,
+  "la concepciãn|quito|orellana": null,
+  "tena|tena|orellana": null,
+  "machala|machala|orellana": {
+    "lat": -0.3020605,
+    "lon": -76.8569293
+  },
+  "pompeya|la joya de los sachas|orellana": null,
+  "la magdalena|quito|orellana": null,
+  "garcãa moreno|orellana|orellana": null,
+  "tarapoa|cuyabeno|orellana": null,
+  "sucre|loja|orellana": {
+    "lat": 0.09109,
+    "lon": -76.883156
+  },
+  "quito distrito metropolitano|quito|orellana": {
+    "lat": -0.1963074,
+    "lon": -78.492482
+  },
+  "san jose de dahuano|loreto|orellana": {
+    "lat": -0.7461158,
+    "lon": -77.4362648
+  },
+  "enokanqui|la joya de los sachas|orellana": null,
+  "el guabo|el guabo|orellana": null,
+  "chillogallo|quito|orellana": {
+    "lat": -0.1963074,
+    "lon": -78.492482
+  },
+  "puerto el carmen del putumayo|putumayo|orellana": null,
+  "archidona||orellana": null,
+  "chiguilpe||orellana": null,
+  "chillogallo||orellana": {
+    "lat": -0.1963074,
+    "lon": -78.492482
+  },
+  "conocoto||orellana": null,
+  "dayuma||orellana": {
+    "lat": -0.7016944,
+    "lon": -76.7832155
+  },
+  "el dorado||orellana": {
+    "lat": -0.5013983,
+    "lon": -76.9551162
+  },
+  "el guabo||orellana": {
+    "lat": 0.0919835,
+    "lon": -76.8769187
+  },
+  "enokanqui||orellana": {
+    "lat": -0.2234625,
+    "lon": -76.8453212
+  },
+  "gabriel ignacio veintimilla||orellana": null,
+  "garcãa moreno||orellana": null,
+  "la belleza||orellana": {
+    "lat": -0.65688,
+    "lon": -77.0473069
+  },
+  "la concepciãn||orellana": null,
+  "la joya de los sachas||orellana": {
+    "lat": -0.3161424,
+    "lon": -76.8611463
+  },
+  "la magdalena||orellana": {
+    "lat": -0.5638127,
+    "lon": -77.0259833
+  },
+  "lago san pedro||orellana": {
+    "lat": -0.2402412,
+    "lon": -76.9451277
+  },
+  "loreto||orellana": {
+    "lat": -0.6471884,
+    "lon": -77.3252738
+  },
+  "machala||orellana": {
+    "lat": -0.3020605,
+    "lon": -76.8569293
+  },
+  "nueva loja||orellana": {
+    "lat": -0.2955469,
+    "lon": -76.8495852
+  },
+  "nuevo paraãso (cab. en uniãn chimborazo)||orellana": null,
+  "nuevo rocafuerte||orellana": {
+    "lat": -0.9191774,
+    "lon": -75.4023208
+  },
+  "pishilata||orellana": null,
+  "pompeya||orellana": {
+    "lat": -0.4483127,
+    "lon": -76.6099423
+  },
+  "puerto el carmen del putumayo||orellana": null,
+  "puerto francisco de orellana (el coca)||orellana": {
+    "lat": -0.4504352,
+    "lon": -76.9992687
+  },
+  "puerto murialdo||orellana": {
+    "lat": -0.6514631,
+    "lon": -77.1759876
+  },
+  "puerto quito||orellana": null,
+  "quito distrito metropolitano||orellana": {
+    "lat": -0.1963074,
+    "lon": -78.492482
+  },
+  "san carlos||orellana": {
+    "lat": -0.3803873,
+    "lon": -76.8835476
+  },
+  "san francisco||orellana": {
+    "lat": -0.4455113,
+    "lon": -77.0145222
+  },
+  "san jose de dahuano||orellana": {
+    "lat": -0.7461158,
+    "lon": -77.4362648
+  },
+  "san josã de guayusa||orellana": null,
+  "san juan||orellana": null,
+  "san sebastiãn del coca||orellana": {
+    "lat": -0.3382384,
+    "lon": -77.0052075
+  },
+  "san vicente de huaticocha||orellana": {
+    "lat": -0.7525127,
+    "lon": -77.4743002
+  },
+  "santo domingo de los colorados||orellana": null,
+  "sucre||orellana": {
+    "lat": -0.2941896,
+    "lon": -76.8521554
+  },
+  "taracoa (nueva esperanza: yuca)||orellana": null,
+  "tarapoa||orellana": null,
+  "tarqui||orellana": {
+    "lat": -2.1850184,
+    "lon": -79.8880984
+  },
+  "tena||orellana": null,
+  "tres de noviembre||orellana": {
+    "lat": -0.1681308,
+    "lon": -76.938115
+  },
+  "tumbaco||orellana": {
+    "lat": -0.2134567,
+    "lon": -78.4033346
+  },
+  "union milagreãa||orellana": null,
+  "ãvila (cab. en huiruno)||orellana": null,
+  "10 de noviembre||los rios": {
+    "lat": -1.4508273,
+    "lon": -79.4630865
+  },
+  "11 de octubre||los rios": {
+    "lat": -1.0490012,
+    "lon": -79.475864
+  },
+  "18 de octubre||los rios": {
+    "lat": -1.7041369,
+    "lon": -79.8263276
+  },
+  "24 de mayo||los rios": {
+    "lat": -1.0215917,
+    "lon": -79.4686094
+  },
+  "7 de agosto||los rios": {
+    "lat": -0.8834892,
+    "lon": -79.4883835
+  },
+  "abraham calazacon||los rios": null,
+  "alangasi||los rios": null,
+  "antonio sotomayor (cab. en playas de vinces)||los rios": null,
+  "baba||los rios": {
+    "lat": -1.6727698,
+    "lon": -79.6615818
+  },
+  "babahoyo||los rios": {
+    "lat": -1.8762599,
+    "lon": -79.5068917
+  },
+  "bahia de caraquez||los rios": null,
+  "barreiro||los rios": {
+    "lat": -1.7466628,
+    "lon": -79.6549344
+  },
+  "bomboli||los rios": null,
+  "calderon (carapungo)||los rios": null,
+  "caracol||los rios": {
+    "lat": -1.6717471,
+    "lon": -79.4626
+  },
+  "catarama||los rios": {
+    "lat": -1.5692196,
+    "lon": -79.4750201
+  },
+  "cayambe||los rios": {
+    "lat": -0.8404079,
+    "lon": -79.369591
+  },
+  "chacarita||los rios": {
+    "lat": -1.364107,
+    "lon": -79.3779051
+  },
+  "clemente baquerizo||los rios": {
+    "lat": -1.8036256,
+    "lon": -79.5244061
+  },
+  "cotocollao||los rios": {
+    "lat": -2.8587393,
+    "lon": -78.9105822
+  },
+  "dr. camilo ponce||los rios": {
+    "lat": -1.708157,
+    "lon": -79.3940134
+  },
+  "el carmen||los rios": {
+    "lat": -1.8016537,
+    "lon": -79.5403121
+  },
+  "el salto||los rios": {
+    "lat": -1.7938567,
+    "lon": -79.5364311
+  },
+  "febres cordero||los rios": {
+    "lat": -1.9920286,
+    "lon": -79.3009746
+  },
+  "febres cordero (las juntas) (cab. en mata de cacao)||los rios": null,
+  "garcia moreno||los rios": {
+    "lat": -1.8015896,
+    "lon": -79.5346287
+  },
+  "guangopolo||los rios": null,
+  "guare||los rios": {
+    "lat": -1.6717589,
+    "lon": -79.7044981
+  },
+  "guayacan||los rios": {
+    "lat": -1.0451946,
+    "lon": -79.4804192
+  },
+  "guayas (pueblo nuevo)||los rios": {
+    "lat": -0.9437044,
+    "lon": -79.5090208
+  },
+  "isla de bejucal||los rios": {
+    "lat": -1.67747,
+    "lon": -79.6444288
+  },
+  "iãaquito||los rios": null,
+  "la esperanza||los rios": {
+    "lat": -0.9657333,
+    "lon": -79.422236
+  },
+  "la libertad||los rios": {
+    "lat": -1.2591635,
+    "lon": -79.49471
+  },
+  "la nueva union||los rios": {
+    "lat": -0.945708,
+    "lon": -79.3204646
+  },
+  "la union||los rios": {
+    "lat": -0.9457092,
+    "lon": -79.3341702
+  },
+  "las naves||los rios": {
+    "lat": -1.2080974,
+    "lon": -79.3109201
+  },
+  "letamendi||los rios": null,
+  "manta||los rios": {
+    "lat": -2.9036246,
+    "lon": -79.0466834
+  },
+  "milagro||los rios": {
+    "lat": -2.8879354,
+    "lon": -79.0380493
+  },
+  "mocache||los rios": {
+    "lat": -1.1979,
+    "lon": -79.5512661
+  },
+  "montalvo||los rios": {
+    "lat": -1.8025855,
+    "lon": -79.348133
+  },
+  "moraspungo||los rios": {
+    "lat": -1.0599873,
+    "lon": -79.3225653
+  },
+  "naranjito||los rios": null,
+  "nicolas infante diaz||los rios": {
+    "lat": -1.0083386,
+    "lon": -79.4649095
+  },
+  "pajan||los rios": {
+    "lat": -2.8986299,
+    "lon": -78.9842192
+  },
+  "palenque||los rios": {
+    "lat": -1.3353343,
+    "lon": -79.7182552
+  },
+  "patricia pilar||los rios": {
+    "lat": -0.5734548,
+    "lon": -79.3698338
+  },
+  "pimocha||los rios": {
+    "lat": -1.8340253,
+    "lon": -79.6095295
+  },
+  "pomasqui||los rios": null,
+  "puebloviejo||los rios": {
+    "lat": -1.5368546,
+    "lon": -79.5474126
+  },
+  "puerto pechiche||los rios": {
+    "lat": -1.425439,
+    "lon": -79.5601439
+  },
+  "puyo||los rios": {
+    "lat": -1.4836563,
+    "lon": -78.0034373
+  },
+  "quevedo||los rios": {
+    "lat": -1.0669701,
+    "lon": -79.4776812
+  },
+  "quinsaloma||los rios": {
+    "lat": -1.1460552,
+    "lon": -79.3468998
+  },
+  "ricaurte||los rios": {
+    "lat": -1.5706125,
+    "lon": -79.466142
+  },
+  "roca||los rios": {
+    "lat": -0.99784,
+    "lon": -79.4716622
+  },
+  "rocafuerte||los rios": {
+    "lat": -1.8026397,
+    "lon": -79.5327478
+  },
+  "san camilo||los rios": {
+    "lat": -1.0342703,
+    "lon": -79.4616698
+  },
+  "san carlos||los rios": {
+    "lat": -1.1160462,
+    "lon": -79.436386
+  },
+  "san cristobal||los rios": {
+    "lat": -1.0118911,
+    "lon": -79.4471169
+  },
+  "san jacinto de buena fe||los rios": {
+    "lat": -0.8966368,
+    "lon": -79.4913411
+  },
+  "san juan||los rios": {
+    "lat": -1.6246366,
+    "lon": -79.559881
+  },
+  "san lorenzo de vinces||los rios": {
+    "lat": -1.5553776,
+    "lon": -79.7521367
+  },
+  "san miguel||los rios": {
+    "lat": -1.1195384,
+    "lon": -79.4811938
+  },
+  "santa maria (cab en santa maria)||los rios": null,
+  "santa maria del toachi||los rios": {
+    "lat": -0.650308,
+    "lon": -79.2301836
+  },
+  "santo domingo de los colorados||los rios": {
+    "lat": -2.9102857,
+    "lon": -78.984681
+  },
+  "siete de octubre||los rios": {
+    "lat": -1.0312281,
+    "lon": -79.4701963
+  },
+  "tambillo||los rios": null,
+  "tarqui||los rios": {
+    "lat": -2.8986773,
+    "lon": -79.008248
+  },
+  "tumbaco||los rios": {
+    "lat": -0.8947982,
+    "lon": -79.4884588
+  },
+  "valencia||los rios": {
+    "lat": -0.7696521,
+    "lon": -79.3211355
+  },
+  "velasco ibarra (el empalme)||los rios": null,
+  "la manã||los rios": {
+    "lat": -2.9106538,
+    "lon": -79.0441538
+  },
+  "ventanas||los rios": {
+    "lat": -1.3253915,
+    "lon": -79.3351558
+  },
+  "venus del rio quevedo||los rios": {
+    "lat": -1.0063628,
+    "lon": -79.4739843
+  },
+  "vinces||los rios": {
+    "lat": -1.5235263,
+    "lon": -79.766045
+  },
+  "vinces central||los rios": null,
+  "viva alfaro||los rios": {
+    "lat": -1.0357096,
+    "lon": -79.4714999
+  },
+  "zapotal||los rios": {
+    "lat": -1.3550973,
+    "lon": -79.4011546
+  },
+  "bomboli|santo domingo|los rios": null,
+  "velasco ibarra (el empalme)|el empalme|los rios": null,
+  "letamendi|guayaquil|los rios": null,
+  "bahia de caraquez|sucre|los rios": null,
+  "alangasi|quito|los rios": null,
+  "abraham calazacon|santo domingo|los rios": null,
+  "tambillo|mejia|los rios": null,
+  "calderon (carapungo)|quito|los rios": null,
+  "santa maria (cab en santa maria)|el carmen|los rios": null,
+  "pomasqui|quito|los rios": null,
+  "naranjito|naranjito|los rios": null,
+  "guangopolo|quito|los rios": null,
+  "iãaquito|quito|los rios": null,
+  "febres cordero (las juntas) (cab. en mata de cacao)|babahoyo|los rios": null
+}
