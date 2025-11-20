@@ -105,23 +105,41 @@ def detectar_provincia(uploaded_file, df):
 
 
 def filtrar_por_ciiu(df):
-    """Filtra solo por los códigos CIIU de librerías (si existen)"""
+    """Filtra por códigos CIIU de librerías y por contribuyentes activos (si la columna existe)."""
+
+    # Buscar columna CIIU
     col_ciiu = None
     for c in df.columns:
         if 'ciiu' in c.lower():
             col_ciiu = c
             break
-    if not col_ciiu:
-        st.warning("⚠️ No se encontró columna CIIU. Se mostrarán todos los registros.")
-        return df  # Si no hay CIIU, mostrar todo
 
+    if not col_ciiu:
+        st.warning("No se encontró columna CIIU. Se mostrarán todos los registros.")
+        return df
+
+    # Limpiar valores CIIU
     df[col_ciiu] = df[col_ciiu].astype(str).str.strip()
+
+    # Filtrar por CIIU
     mask = df[col_ciiu].apply(lambda x: any(code in x for code in CIIU_CODIGOS.keys()))
     filtrado = df[mask]
+
     if filtrado.empty:
-        st.warning("⚠️ No se encontraron registros con los códigos CIIU de librerías. Se mostrarán todos.")
+        st.warning("No se encontraron registros con los códigos CIIU de librerías. Se mostrarán todos.")
         return df
+
+    # Filtrar solo ACTIVO si la columna existe
+    if "ESTADO_CONTRIBUYENTE" in filtrado.columns:
+        filtrado["ESTADO_CONTRIBUYENTE"] = (
+            filtrado["ESTADO_CONTRIBUYENTE"].astype(str).str.upper().str.strip()
+        )
+        filtrado = filtrado[filtrado["ESTADO_CONTRIBUYENTE"] == "ACTIVO"]
+    else:
+        st.warning("No se encontró la columna ESTADO_CONTRIBUYENTE. No se aplicó el filtro de activos.")
+
     return filtrado
+
 
 
 def _parse_number_try(v):
