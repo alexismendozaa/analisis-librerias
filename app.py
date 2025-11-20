@@ -660,6 +660,12 @@ if archivo:
 
         df_filtrado = filtrar_por_ciiu(df)
 
+        # --- INICIO DE CÓDIGO AÑADIDO ---
+        st.subheader("📦 Datos filtrados (vista previa)")
+        st.dataframe(df_filtrado.head(200), use_container_width=True)
+        st.caption(f"Mostrando los primeros {min(200, len(df_filtrado))} registros de {len(df_filtrado)} totales.")
+        # --- FIN DE CÓDIGO AÑADIDO ---
+
         # MÉTRICAS
         col1, col2, col3 = st.columns(3)
         with col1:

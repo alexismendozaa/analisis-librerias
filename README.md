@@ -22,23 +22,23 @@ Sistema inteligente para analizar la distribución de librerías y puntos de ven
 1. **Clona o descarga el proyecto**
 
 2. **Crea un entorno virtual** (opcional pero recomendado):
-   \`\`\`bash
+   
    python -m venv venv
    source venv/bin/activate  # En Windows: venv\Scripts\activate
-   \`\`\`
+   
 
 3. **Instala las dependencias**:
-   \`\`\`bash
+   
    pip install -r requirements.txt
-   \`\`\`
+   
 
 
 ## Uso
 
 1. **Ejecuta la aplicación**:
-   \`\`\`bash
+   
    streamlit run app.py
-   \`\`\`
+   
 
 2. **En el navegador** (se abrirá automáticamente en `http://localhost:8501`):
    - Carga tu archivo CSV
@@ -73,17 +73,7 @@ El sistema incluye coordenadas para las siguientes provincias de Ecuador:
 - Morona Santiago, Zamora Chinchipe, Loja, El Oro, Santa Elena
 - Los Ríos, Chimborazo
 
-## API Keys Requeridas
 
-### Google Gemini
-Actualizar instrucciones para usar Gemini en lugar de Groq
-
-Obtén tu API key gratuita en: https://makersuite.google.com/app/apikeys
-
-Luego configúrala en el archivo `.env`:
-\`\`\`
-GEMINI_API_KEY=tu_api_key_aqui
-\`\`\`
 
 ## Funcionalidades Principales
 
