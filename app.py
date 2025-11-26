@@ -105,22 +105,42 @@ def detectar_provincia(uploaded_file, df):
 
 
 def filtrar_por_ciiu(df):
-    """Filtra solo por los códigos CIIU de librerías (si existen)"""
+    """
+    Filtra por códigos CIIU de librerías y por contribuyentes activos.
+    """
+
     col_ciiu = None
     for c in df.columns:
         if 'ciiu' in c.lower():
             col_ciiu = c
             break
-    if not col_ciiu:
-        st.warning("⚠️ No se encontró columna CIIU. Se mostrarán todos los registros.")
-        return df  # Si no hay CIIU, mostrar todo
 
-    df[col_ciiu] = df[col_ciiu].astype(str).str.strip()
-    mask = df[col_ciiu].apply(lambda x: any(code in x for code in CIIU_CODIGOS.keys()))
-    filtrado = df[mask]
+    if not col_ciiu:
+        st.warning("No se encontró columna CIIU. Se mostrarán todos los registros.")
+        return df.copy()
+
+    df_temp = df.copy()
+
+    # Limpiar valores CIIU 
+    df_temp.loc[:, col_ciiu] = df_temp[col_ciiu].astype(str).str.strip()
+
+    # Filtrar por CIIU
+    mask = df_temp[col_ciiu].apply(lambda x: any(code in x for code in CIIU_CODIGOS.keys()))
+    filtrado = df_temp[mask].copy()
+
     if filtrado.empty:
-        st.warning("⚠️ No se encontraron registros con los códigos CIIU de librerías. Se mostrarán todos.")
-        return df
+        st.warning("No se encontraron registros con los códigos CIIU de librerías. Se mostrarán todos.")
+        return df_temp
+
+    # Filtrar solo ACTIVO si la columna existe 
+    if "ESTADO_CONTRIBUYENTE" in filtrado.columns:
+        filtrado.loc[:, "ESTADO_CONTRIBUYENTE"] = (
+            filtrado["ESTADO_CONTRIBUYENTE"].astype(str).str.upper().str.strip()
+        )
+        filtrado = filtrado[filtrado["ESTADO_CONTRIBUYENTE"] == "ACTIVO"].copy()
+    else:
+        st.warning("No se encontró la columna ESTADO_CONTRIBUYENTE. No se aplicó el filtro de activos.")
+
     return filtrado
 
 
@@ -641,6 +661,11 @@ if archivo:
         st.info(f"📍 Provincia detectada automáticamente: **{provincia}**")
 
         df_filtrado = filtrar_por_ciiu(df)
+
+# 1. DATOS FILTRADOS (VISTA PREVIA)
+        st.subheader("📦 Datos filtrados (vista previa)")
+        st.dataframe(df_filtrado.head(200), width='stretch')
+        st.caption(f"Mostrando los primeros {min(200, len(df_filtrado))} registros de {len(df_filtrado)} totales.")
 
         # MÉTRICAS
         col1, col2, col3 = st.columns(3)

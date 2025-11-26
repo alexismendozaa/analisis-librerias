@@ -23,12 +23,13 @@ Sistema inteligente para analizar la distribución de librerías y puntos de ven
 
 2. **Crea un entorno virtual** (opcional pero recomendado):
    \`\`\`bash
-   python -m venv venv
+   python3.12 -m venv venv
    source venv/bin/activate  # En Windows: venv\Scripts\activate
    \`\`\`
 
 3. **Instala las dependencias**:
    \`\`\`bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    \`\`\`
 

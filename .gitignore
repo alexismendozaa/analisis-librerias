@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Entornos virtuales
+venv/
+.env/
+.env.*
+
+# Archivos de configuración locales
+*.sqlite3
+instance/
+*.log
+
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# --- Docker ---
+# Evitar archivos generados por contenedores
+*.pid
+*.tar
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# --- Caches ---
+geocode_cache.json
+.cache/
+*.cache
+
+# --- Otros ---
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Compilados
+dist/
+build/
+
